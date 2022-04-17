@@ -1,0 +1,39 @@
+.hero{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.185rem;
+    background-color: $celadonGreen;
+    color: $white;
+    &__inner{
+        position: relative;
+    }
+    &__title{
+        color: $sunglow;
+        font-family: 'CC SamaritanTallLower';
+        font-weight: 400;
+        font-size: 4rem;
+        line-height: 3.6rem;
+        letter-spacing: .2rem;
+        padding: 104px 0 0 0;
+        span {
+            color: $darkLemonLime;
+        }
+    }
+    &__descr{
+        width: 291px;
+        padding: 137px 0 48px 0;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 1.2169rem;
+    }
+    &__button{
+        @include button($sunglow, $white, $cadmiumOrange, 16px, 400, 16px, 10px, 18px 51px);
+        margin: 0 0 230px 0;
+    }
+    &__background-svg{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}

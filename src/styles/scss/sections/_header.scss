@@ -1,0 +1,47 @@
+.header{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.185rem;
+    background-color: $salem;
+    color: $white;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        margin: 15px 0;
+    }
+    &__menu{
+        flex-grow: 1;
+    }
+    &__menu-list{
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__menu-list-item{
+        flex-grow: 1;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 18px 52px;
+        &:hover{
+            background-color: $celadonGreen;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    &__button{
+        color: $white;
+        background-color: $cadmiumOrange;
+        border-radius: 10px;
+        padding: 18px 52px;
+        &:hover{
+            background-color: $celadonGreen;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
