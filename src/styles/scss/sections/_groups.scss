@@ -18,6 +18,7 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+        padding: 0 0 100px 0;
     }
     &__cards-item{
         position: relative;
@@ -35,7 +36,6 @@
             position: absolute;
             bottom: 0;
             right: 0;
-            z-index: 0;
         }
         &::before{
             content: '';
@@ -45,7 +45,6 @@
             position: absolute;
             top: 0;
             left: 0;
-            z-index: 0;
         }
     }
     &__cards-item-title{
@@ -57,6 +56,8 @@
     }
     &__cards-item-button{
         z-index: 1;
-        @include button($sunglow, $white, $cadmiumOrange, 16px, 400, 16px, 10px, 18px 51px);
+        font-family: 'Rubik';
+        font-weight: 400;
+        @include button($mustard, $white, $cadmiumOrange, 16px, 400, 16px, 10px, 18px 51px);
     }
 }

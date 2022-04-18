@@ -36,7 +36,7 @@ input:focus, textarea:focus, select:focus{
 }
 
 .container {
-    max-width: 1180px;
+    max-width: 1210px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -46,3 +46,5 @@ input:focus, textarea:focus, select:focus{
 @import './sections/hero';
 @import './sections/about-us';
 @import './sections/groups';
+@import './sections/squad';
+@import './sections/footer';

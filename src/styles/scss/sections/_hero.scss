@@ -28,7 +28,8 @@
         line-height: 1.2169rem;
     }
     &__button{
-        @include button($sunglow, $white, $cadmiumOrange, 16px, 400, 16px, 10px, 18px 51px);
+        // 1 $sunglow
+        @include button($salem, $white, $cadmiumOrange, 16px, 400, 16px, 10px, 18px 51px);
         margin: 0 0 230px 0;
     }
     &__background-svg{

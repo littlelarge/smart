@@ -1,0 +1,16 @@
+.footer{
+    font-family: 'Rubik';
+    font-weight: 400;
+    background-color: $celadonGreen;
+    color: $white;
+    &__inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__link{
+        font-size: .9375rem;
+        line-height: 1.1113rem;
+        padding: 34px 0;
+    }
+}
